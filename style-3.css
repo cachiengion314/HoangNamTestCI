@@ -1,0 +1,52 @@
+.lucky_number_block {
+    background-color: rgb(212, 201, 223);
+    width: 65%;
+    height: 200px;
+    margin: auto;
+    position: relative;
+}
+
+.space {
+    width: 100%;
+    height: 15px;
+}
+
+.lucky_number_block .lucky_number_title {
+    background-color: black;
+    color: white;
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 32px
+}
+
+.lucky_number_block .info_text {
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px
+}
+
+.lucky_number_block .input_block {
+    display: flex;
+    width: 50%;
+}
+
+.lucky_number_block .input_block {
+    display: flex;
+    position: absolute;
+    bottom: 13px;
+    left: 27%;
+}
+
+.lucky_number_block .input_block button {
+    padding: 5px;
+    height: 46px;
+}
+
+.same {
+    width: 50%;
+    margin: 0px;
+}
